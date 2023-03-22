@@ -289,6 +289,7 @@ void HospitalManagement(
 void intro();
 int main()
 {
+	intro ();
 	// Stores hospital data and
 	// the user data
 	string patient_Name[] = { "P1", "P2", "P3", "P4" };
@@ -320,9 +321,9 @@ int main()
 
         // Introduction section 
 void intro(){
-    cout << "\n\n\n\t     TOPIC";
-    cout << "\n\n\n\n\t     MADE BY:";
-    cout << "\n\n\n\n\t     MATRIC NO: ";
+    cout << "\n\n\n\t     TOPIC MEDICAL INFORMATION SYSTEM";
+    cout << "\n\n\n\n\t     MADE BY:SULAIMON FATIMO DAMILOLA";
+    cout << "\n\n\n\n\t     MATRIC NO:H\CTE\22\0676";
     cout << "\n\n\n\n\t     SUPERVISOR : ENGR NZUBE";
     cout << "\n\n\n\n\t     SCHOOL : THE FEDERAL POLYTECHNIC ILARO";
     cin.get();
